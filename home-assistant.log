@@ -1,0 +1,936 @@
+2021-02-18 20:49:44 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2021-02-18 20:49:44 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for sonoff which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2021-02-18 20:49:44 INFO (MainThread) [homeassistant.setup] Setup of domain logger took 0.0 seconds
+2021-02-18 20:49:45 INFO (MainThread) [homeassistant.setup] Setting up recorder
+2021-02-18 20:49:45 INFO (MainThread) [homeassistant.setup] Setting up http
+2021-02-18 20:49:45 INFO (MainThread) [homeassistant.setup] Setup of domain http took 0.0 seconds
+2021-02-18 20:49:45 INFO (MainThread) [homeassistant.setup] Setting up system_log
+2021-02-18 20:49:45 INFO (MainThread) [homeassistant.setup] Setup of domain system_log took 0.0 seconds
+2021-02-18 20:49:45 INFO (MainThread) [homeassistant.setup] Setup of domain recorder took 0.1 seconds
+2021-02-18 20:49:45 INFO (MainThread) [homeassistant.bootstrap] Setting up stage 1: {'hassio', 'config', 'alexa', 'image', 'http', 'search', 'person', 'device_automation', 'api', 'auth', 'onboarding', 'lovelace', 'websocket_api', 'frontend', 'system_log', 'webhook', 'cloud'}
+2021-02-18 20:49:45 INFO (MainThread) [homeassistant.setup] Setting up hassio
+2021-02-18 20:49:45 INFO (MainThread) [homeassistant.setup] Setting up config
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setting up alexa
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setup of domain alexa took 0.0 seconds
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setting up device_automation
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setup of domain device_automation took 0.0 seconds
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setting up api
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setup of domain api took 0.0 seconds
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setting up auth
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setup of domain auth took 0.0 seconds
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setting up lovelace
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setting up websocket_api
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setup of domain websocket_api took 0.0 seconds
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setting up webhook
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setup of domain webhook took 0.0 seconds
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setup of domain config took 0.6 seconds
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setting up image
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setting up search
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setup of domain search took 0.0 seconds
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setup of domain lovelace took 0.1 seconds
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setup of domain image took 0.0 seconds
+2021-02-18 20:49:46 INFO (SyncWorker_3) [homeassistant.loader] Loaded google_assistant from homeassistant.components.google_assistant
+2021-02-18 20:49:46 INFO (SyncWorker_2) [homeassistant.loader] Loaded camera from homeassistant.components.camera
+2021-02-18 20:49:46 INFO (MainThread) [homeassistant.setup] Setting up person
+2021-02-18 20:49:46 INFO (SyncWorker_0) [homeassistant.loader] Loaded media_player from homeassistant.components.media_player
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up cloud
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setup of domain person took 0.8 seconds
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setup of domain cloud took 0.1 seconds
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up onboarding
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setup of domain onboarding took 0.0 seconds
+2021-02-18 20:49:47 INFO (SyncWorker_5) [homeassistant.loader] Loaded device_tracker from homeassistant.components.device_tracker
+2021-02-18 20:49:47 INFO (SyncWorker_4) [homeassistant.loader] Loaded panel_custom from homeassistant.components.panel_custom
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up frontend
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setup of domain frontend took 0.0 seconds
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.components.http] Now listening on port 8123
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setup of domain hassio took 1.6 seconds
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.bootstrap] Setting up stage 2: {'mobile_app', 'sun', 'input_boolean', 'input_select', 'history', 'zone', 'logbook', 'scene', 'input_number', 'configurator', 'input_datetime', 'webostv', 'tag', 'media_source', 'script', 'hacs', 'map', 'counter', 'wake_on_lan', 'kodi', 'tts', 'persistent_notification', 'blueprint', 'updater', 'timer', 'automation', 'default_config', 'dhcp', 'sonoff', 'system_health', 'zeroconf', 'knx', 'met', 'ssdp', 'group', 'switch', 'rpi_power', 'tuya', 'input_text', 'cast'}
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up sun
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setup of domain sun took 0.0 seconds
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up input_boolean
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up input_select
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up history
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setup of domain history took 0.0 seconds
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up zone
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up logbook
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up scene
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.components.scene] Setting up scene.homeassistant
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up input_number
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up configurator
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setup of domain configurator took 0.0 seconds
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up input_datetime
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up tag
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up media_source
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up script
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setup of domain script took 0.0 seconds
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up map
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setup of domain map took 0.0 seconds
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up counter
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up wake_on_lan
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setup of domain wake_on_lan took 0.0 seconds
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up blueprint
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setup of domain blueprint took 0.0 seconds
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up updater
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setup of domain updater took 0.0 seconds
+2021-02-18 20:49:47 INFO (MainThread) [homeassistant.setup] Setting up timer
+2021-02-18 20:49:48 INFO (MainThread) [homeassistant.setup] Setting up dhcp
+2021-02-18 20:49:48 INFO (MainThread) [homeassistant.setup] Setup of domain dhcp took 0.0 seconds
+2021-02-18 20:49:48 INFO (MainThread) [homeassistant.setup] Setting up system_health
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setting up knx
+2021-02-18 20:49:50 INFO (MainThread) [xknx.log] XKNX v0.16.2 starting tunneling connection to KNX bus.
+2021-02-18 20:49:50 DEBUG (MainThread) [xknx.log] Starting tunnel from 192.168.1.70 to 192.168.1.30:3671
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setting up met
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setup of domain met took 0.0 seconds
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setting up group
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setting up switch
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setup of domain switch took 0.0 seconds
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setting up rpi_power
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setup of domain rpi_power took 0.0 seconds
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setting up tuya
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setup of domain tuya took 0.0 seconds
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setting up input_text
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.components.scene] Setting up scene.homeassistant
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.components.switch] Setting up switch.wake_on_lan
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.components.switch] Setting up switch.wake_on_lan
+2021-02-18 20:49:50 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:37329 />" data_endpoint="<HPAI 192.168.1.70:37329 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:49:50 INFO (SyncWorker_0) [homeassistant.loader] Loaded binary_sensor from homeassistant.components.binary_sensor
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setup of domain logbook took 3.2 seconds
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setup of domain media_source took 3.2 seconds
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setting up hacs
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setup of domain hacs took 0.0 seconds
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setup of domain system_health took 2.0 seconds
+2021-02-18 20:49:50 INFO (SyncWorker_0) [homeassistant.loader] Loaded google_translate from homeassistant.components.google_translate
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setting up zeroconf
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setup of domain group took 0.5 seconds
+2021-02-18 20:49:50 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setup of domain input_boolean took 3.5 seconds
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setup of domain input_select took 3.5 seconds
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setup of domain input_number took 3.5 seconds
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setup of domain input_datetime took 3.5 seconds
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setup of domain tag took 3.5 seconds
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setup of domain counter took 3.4 seconds
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setup of domain timer took 3.3 seconds
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setting up binary_sensor
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setup of domain binary_sensor took 0.0 seconds
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setup of domain input_text took 0.4 seconds
+2021-02-18 20:49:50 INFO (MainThread) [homeassistant.setup] Setting up tts
+2021-02-18 20:49:51 INFO (MainThread) [homeassistant.setup] Setting up webostv
+2021-02-18 20:49:51 INFO (MainThread) [homeassistant.setup] Setup of domain zeroconf took 0.3 seconds
+2021-02-18 20:49:51 INFO (MainThread) [homeassistant.setup] Setting up kodi
+2021-02-18 20:49:51 INFO (MainThread) [homeassistant.setup] Setup of domain kodi took 0.0 seconds
+2021-02-18 20:49:51 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.rpi_power
+2021-02-18 20:49:51 INFO (MainThread) [homeassistant.setup] Setup of domain zone took 3.8 seconds
+2021-02-18 20:49:51 INFO (MainThread) [homeassistant.setup] Setup of domain scene took 3.8 seconds
+2021-02-18 20:49:51 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.updater
+2021-02-18 20:49:51 INFO (SyncWorker_4) [homeassistant.loader] Loaded notify from homeassistant.components.notify
+2021-02-18 20:49:51 INFO (MainThread) [homeassistant.setup] Setting up automation
+2021-02-18 20:49:51 INFO (MainThread) [homeassistant.setup] Setup of domain tts took 0.3 seconds
+2021-02-18 20:49:51 INFO (MainThread) [homeassistant.setup] Setting up sonoff
+2021-02-18 20:49:51 INFO (MainThread) [homeassistant.setup] Setting up mobile_app
+2021-02-18 20:49:51 INFO (MainThread) [homeassistant.setup] Setting up ssdp
+2021-02-18 20:49:51 INFO (MainThread) [homeassistant.setup] Setup of domain ssdp took 0.0 seconds
+2021-02-18 20:49:51 INFO (MainThread) [custom_components.hacs] 
+-------------------------------------------------------------------
+HACS (Home Assistant Community Store)
+
+Version: 1.11.3
+This is a custom integration
+If you have any issues with this you need to open an issue here:
+https://github.com/hacs/integration/issues
+-------------------------------------------------------------------
+
+2021-02-18 20:49:51 INFO (MainThread) [custom_components.hacs] Setup task HacsSetupTask.WEBSOCKET
+2021-02-18 20:49:51 INFO (MainThread) [custom_components.hacs] Setup task HacsSetupTask.FRONTEND
+2021-02-18 20:49:51 INFO (MainThread) [homeassistant.setup] Setup of domain mobile_app took 0.1 seconds
+2021-02-18 20:49:51 INFO (SyncWorker_4) [homeassistant.loader] Loaded plex from homeassistant.components.plex
+2021-02-18 20:49:51 INFO (MainThread) [custom_components.hacs] Setup task HacsSetupTask.CATEGORIES
+2021-02-18 20:49:51 INFO (MainThread) [homeassistant.setup] Setup of domain automation took 0.3 seconds
+2021-02-18 20:49:51 INFO (MainThread) [homeassistant.setup] Setting up notify
+2021-02-18 20:49:51 INFO (MainThread) [homeassistant.setup] Setup of domain notify took 0.0 seconds
+2021-02-18 20:49:51 INFO (MainThread) [custom_components.hacs] HACS is enabled
+2021-02-18 20:49:51 INFO (SyncWorker_1) [homeassistant.loader] Loaded sensor from homeassistant.components.sensor
+2021-02-18 20:49:51 INFO (MainThread) [homeassistant.setup] Setting up device_tracker
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setting up cast
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setup of domain cast took 0.0 seconds
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.updater] Submitted analytics to Home Assistant servers. Information submitted includes {}
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mobile_app
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mobile_app
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mobile_app
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mobile_app
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.notify] Setting up notify.mobile_app
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setting up sensor
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setup of domain sensor took 0.0 seconds
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setup of domain device_tracker took 0.1 seconds
+2021-02-18 20:49:52 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:49:52 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:49:52 DEBUG (MainThread) [xknx.state_updater] StateUpdater initializing values
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setup of domain knx took 1.8 seconds
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setting up default_config
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mobile_app
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mobile_app
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mobile_app
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mobile_app
+2021-02-18 20:49:52 INFO (SyncWorker_3) [homeassistant.loader] Loaded stream from homeassistant.components.stream
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.device_tracker] Setting up device_tracker.mobile_app
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.device_tracker] Setting up device_tracker.mobile_app
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.device_tracker] Setting up device_tracker.mobile_app
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.device_tracker] Setting up device_tracker.mobile_app
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setting up media_player
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setup of domain media_player took 0.0 seconds
+2021-02-18 20:49:52 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:49:52 INFO (SyncWorker_6) [homeassistant.loader] Loaded cover from homeassistant.components.cover
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.tuya] Tuya discovery device poll interval set to 605 seconds
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.tuya] Tuya query device poll interval set to 120 seconds
+2021-02-18 20:49:52 INFO (SyncWorker_6) [homeassistant.loader] Loaded weather from homeassistant.components.weather
+2021-02-18 20:49:52 INFO (SyncWorker_4) [homeassistant.loader] Loaded light from homeassistant.components.light
+2021-02-18 20:49:52 INFO (SyncWorker_2) [homeassistant.loader] Loaded climate from homeassistant.components.climate
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.knx
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.switch] Setting up switch.knx
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.notify] Setting up notify.knx
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.scene] Setting up scene.knx
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.knx
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.cast
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setting up cover
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setup of domain cover took 0.0 seconds
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setting up weather
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setup of domain weather took 0.0 seconds
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setting up light
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setting up climate
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setup of domain climate took 0.0 seconds
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.switch] Setting up switch.tuya
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setting up stream
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setup of domain stream took 0.0 seconds
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.weather] Setting up weather.met
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setup of domain light took 0.1 seconds
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.cover] Setting up cover.knx
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.setup] Setup of domain default_config took 0.3 seconds
+2021-02-18 20:49:52 INFO (MainThread) [homeassistant.components.weather] Setting up weather.knx
+2021-02-18 20:49:53 INFO (MainThread) [homeassistant.components.light] Setting up light.tuya
+2021-02-18 20:49:53 INFO (MainThread) [homeassistant.components.climate] Setting up climate.knx
+2021-02-18 20:49:53 INFO (MainThread) [homeassistant.components.weather] Not adding entity HomeAssistantAB Hourly because it's disabled
+2021-02-18 20:49:53 INFO (MainThread) [homeassistant.components.light] Setting up light.knx
+2021-02-18 20:49:53 INFO (MainThread) [custom_components.hacs] Setup task HacsSetupTask.HACS_REPO
+2021-02-18 20:49:53 INFO (SyncWorker_6) [pychromecast] Querying device status
+2021-02-18 20:49:53 INFO (SyncWorker_3) [pychromecast] Querying device status
+2021-02-18 20:49:53 INFO (MainThread) [homeassistant.setup] Setup of domain webostv took 2.4 seconds
+2021-02-18 20:49:53 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.webostv
+2021-02-18 20:49:53 INFO (MainThread) [homeassistant.components.notify] Setting up notify.webostv
+2021-02-18 20:49:53 INFO (SyncWorker_1) [pychromecast] Querying device status
+2021-02-18 20:49:54 INFO (MainThread) [custom_components.hacs] <Integration hacs/integration> Registration completed
+2021-02-18 20:49:54 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.kodi
+2021-02-18 20:49:54 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.kodi
+2021-02-18 20:49:54 INFO (MainThread) [custom_components.hacs] Restore started
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.setup] Setup of domain sonoff took 4.4 seconds
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.light] Setting up light.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.sonoff
+2021-02-18 20:49:55 INFO (MainThread) [custom_components.hacs] Restore done
+2021-02-18 20:49:55 INFO (MainThread) [custom_components.hacs] Setup task HacsSetupTask.SENSOR
+2021-02-18 20:49:55 INFO (MainThread) [custom_components.hacs] Stage changed: HacsStage.WAITING
+2021-02-18 20:49:55 INFO (MainThread) [custom_components.hacs] Setup complete, waiting for Home Assistant before startup tasks starts
+2021-02-18 20:49:55 INFO (MainThread) [custom_components.hacs] HACS is enabled
+2021-02-18 20:49:55 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.hacs
+2021-02-18 20:49:55 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:32981 />" data_endpoint="<HPAI 192.168.1.70:32981 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:49:56 INFO (MainThread) [homeassistant.bootstrap] Home Assistant initialized in 11.40s
+2021-02-18 20:49:56 INFO (MainThread) [homeassistant.core] Starting Home Assistant
+2021-02-18 20:49:56 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:49:56 INFO (SyncWorker_4) [homeassistant.components.zeroconf] Starting Zeroconf broadcast
+2021-02-18 20:49:56 INFO (MainThread) [homeassistant.core] Timer:starting
+2021-02-18 20:49:56 INFO (MainThread) [homeassistant.components.automation.jardin_encendido_diario] Initialized trigger Jardin. Encendido diario
+2021-02-18 20:49:56 INFO (MainThread) [homeassistant.components.automation.plantabaja_encendido_con_sensor] Initialized trigger PlantaBaja. Encendido con sensor
+2021-02-18 20:49:56 INFO (MainThread) [homeassistant.components.automation.entrada_encendido_luzporche_con_sensor] Initialized trigger Entrada. Encendido LuzPorche con Sensor
+2021-02-18 20:49:56 INFO (MainThread) [homeassistant.components.automation.garaje_encendido_luzgaraje_con_puertagarajepersonas] Initialized trigger Garaje. Encendido LuzGaraje con PuertaGarajePersonas
+2021-02-18 20:49:56 INFO (MainThread) [homeassistant.components.automation.garaje_encendido_luzgaraje_con_puertagaraje] Initialized trigger Garaje. Encendido LuzGaraje con PuertaGaraje
+2021-02-18 20:49:56 INFO (MainThread) [homeassistant.components.automation.se_escanea_la_etiqueta_apagar_casa_3] Initialized trigger Se escanea la etiqueta Apagar Casa
+2021-02-18 20:49:56 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:49:56 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:49:56 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:49:59 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:57130 />" data_endpoint="<HPAI 192.168.1.70:57130 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:50:00 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:50:00 INFO (MainThread) [custom_components.hacs] Stage changed: HacsStage.STARTUP
+2021-02-18 20:50:00 INFO (MainThread) [custom_components.hacs] setup task HacsSetupTask.CATEGORIES
+2021-02-18 20:50:00 INFO (MainThread) [custom_components.hacs] Loading known repositories
+2021-02-18 20:50:00 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:50:00 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:50:00 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:50:03 INFO (MainThread) [custom_components.hacs] <Integration custom-components/remote_homeassistant> Registration completed
+2021-02-18 20:50:03 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:35562 />" data_endpoint="<HPAI 192.168.1.70:35562 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:50:03 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:50:04 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:50:04 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:50:04 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:50:07 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:53189 />" data_endpoint="<HPAI 192.168.1.70:53189 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:50:07 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:50:08 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:50:08 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:50:08 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:50:09 INFO (MainThread) [custom_components.hacs] Stage changed: HacsStage.RUNNING
+2021-02-18 20:50:11 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:42635 />" data_endpoint="<HPAI 192.168.1.70:42635 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:50:11 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:50:12 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:50:12 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:50:12 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:50:15 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:47819 />" data_endpoint="<HPAI 192.168.1.70:47819 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:50:15 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:50:16 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:50:16 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:50:16 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:50:19 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:39158 />" data_endpoint="<HPAI 192.168.1.70:39158 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:50:19 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:50:20 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:50:20 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:50:20 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:50:23 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:55317 />" data_endpoint="<HPAI 192.168.1.70:55317 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:50:23 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:50:24 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:50:24 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:50:24 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:50:27 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:42752 />" data_endpoint="<HPAI 192.168.1.70:42752 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:50:27 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:50:28 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:50:28 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:50:28 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:50:31 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:54862 />" data_endpoint="<HPAI 192.168.1.70:54862 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:50:31 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:50:32 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:50:32 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:50:32 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:50:35 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:34826 />" data_endpoint="<HPAI 192.168.1.70:34826 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:50:35 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:50:36 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:50:36 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:50:36 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:50:39 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:49920 />" data_endpoint="<HPAI 192.168.1.70:49920 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:50:40 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:50:41 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:50:41 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:50:41 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:50:44 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:49121 />" data_endpoint="<HPAI 192.168.1.70:49121 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:50:44 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:50:45 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:50:45 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:50:45 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:50:48 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:33590 />" data_endpoint="<HPAI 192.168.1.70:33590 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:50:48 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:50:49 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:50:49 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:50:49 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:50:52 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:55915 />" data_endpoint="<HPAI 192.168.1.70:55915 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:50:52 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:50:53 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:50:53 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:50:53 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:50:56 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:57503 />" data_endpoint="<HPAI 192.168.1.70:57503 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:50:56 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:50:57 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:50:57 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:50:57 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:51:00 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:42106 />" data_endpoint="<HPAI 192.168.1.70:42106 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:51:00 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:51:01 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:51:01 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:51:01 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:51:04 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:52090 />" data_endpoint="<HPAI 192.168.1.70:52090 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:51:04 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:51:05 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:51:05 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:51:05 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:51:08 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:60975 />" data_endpoint="<HPAI 192.168.1.70:60975 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:51:08 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:51:09 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:51:09 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:51:09 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:51:12 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:40290 />" data_endpoint="<HPAI 192.168.1.70:40290 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:51:12 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:51:13 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:51:13 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:51:13 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:51:16 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:55268 />" data_endpoint="<HPAI 192.168.1.70:55268 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:51:16 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:51:17 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:51:17 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:51:17 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:51:20 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:55659 />" data_endpoint="<HPAI 192.168.1.70:55659 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:51:20 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:51:21 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:51:21 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:51:21 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:51:24 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:54537 />" data_endpoint="<HPAI 192.168.1.70:54537 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:51:24 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:51:25 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:51:25 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:51:25 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:51:28 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:48471 />" data_endpoint="<HPAI 192.168.1.70:48471 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:51:28 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:51:29 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:51:29 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:51:29 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:51:32 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:35724 />" data_endpoint="<HPAI 192.168.1.70:35724 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:51:32 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:51:33 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:51:33 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:51:33 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:51:36 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:45186 />" data_endpoint="<HPAI 192.168.1.70:45186 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:51:36 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:51:37 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:51:37 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:51:37 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:51:40 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:34260 />" data_endpoint="<HPAI 192.168.1.70:34260 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:51:40 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:51:41 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:51:41 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:51:41 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:51:44 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:43443 />" data_endpoint="<HPAI 192.168.1.70:43443 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:51:44 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:51:45 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:51:45 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:51:45 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:51:48 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:43998 />" data_endpoint="<HPAI 192.168.1.70:43998 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:51:48 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:51:49 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:51:49 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:51:49 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:51:52 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:52564 />" data_endpoint="<HPAI 192.168.1.70:52564 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:51:52 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:51:53 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:51:53 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:51:53 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:51:56 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:48877 />" data_endpoint="<HPAI 192.168.1.70:48877 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:51:56 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:51:57 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:51:57 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:51:57 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:52:00 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:36887 />" data_endpoint="<HPAI 192.168.1.70:36887 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:52:00 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:52:01 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:52:01 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:52:01 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:52:04 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:44950 />" data_endpoint="<HPAI 192.168.1.70:44950 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:52:04 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:52:05 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:52:05 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:52:05 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:52:08 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:33388 />" data_endpoint="<HPAI 192.168.1.70:33388 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:52:08 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:52:09 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:52:09 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:52:09 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:52:12 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:57786 />" data_endpoint="<HPAI 192.168.1.70:57786 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:52:12 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:52:13 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:52:13 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:52:13 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:52:16 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:41077 />" data_endpoint="<HPAI 192.168.1.70:41077 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:52:16 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:52:17 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:52:17 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:52:17 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:52:20 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:42877 />" data_endpoint="<HPAI 192.168.1.70:42877 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:52:20 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:52:21 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:52:21 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:52:21 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:52:24 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:40090 />" data_endpoint="<HPAI 192.168.1.70:40090 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:52:24 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:52:25 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:52:25 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:52:25 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:52:28 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:40357 />" data_endpoint="<HPAI 192.168.1.70:40357 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:52:28 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:52:29 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:52:29 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:52:29 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:52:32 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:59536 />" data_endpoint="<HPAI 192.168.1.70:59536 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:52:32 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:52:33 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:52:33 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:52:33 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:52:36 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:59494 />" data_endpoint="<HPAI 192.168.1.70:59494 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:52:36 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:52:37 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:52:37 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:52:37 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:52:40 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:34522 />" data_endpoint="<HPAI 192.168.1.70:34522 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:52:40 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:52:41 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:52:41 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:52:41 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:52:44 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:38210 />" data_endpoint="<HPAI 192.168.1.70:38210 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:52:44 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:52:45 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:52:45 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:52:45 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:52:48 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:48743 />" data_endpoint="<HPAI 192.168.1.70:48743 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:52:48 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:52:49 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:52:49 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:52:49 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:52:52 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:34823 />" data_endpoint="<HPAI 192.168.1.70:34823 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:52:52 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:52:53 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:52:53 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:52:53 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:52:56 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:54842 />" data_endpoint="<HPAI 192.168.1.70:54842 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:52:56 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:52:57 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:52:57 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:52:57 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:53:00 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:47138 />" data_endpoint="<HPAI 192.168.1.70:47138 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:53:00 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:53:01 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:53:01 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:53:01 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:53:04 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:46484 />" data_endpoint="<HPAI 192.168.1.70:46484 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:53:04 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:53:05 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:53:05 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:53:05 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:53:08 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:35210 />" data_endpoint="<HPAI 192.168.1.70:35210 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:53:08 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:53:09 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:53:09 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:53:09 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:53:12 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:48060 />" data_endpoint="<HPAI 192.168.1.70:48060 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:53:12 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:53:13 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:53:13 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:53:13 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:53:16 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:44677 />" data_endpoint="<HPAI 192.168.1.70:44677 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:53:16 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:53:17 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:53:17 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:53:17 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:53:20 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:44727 />" data_endpoint="<HPAI 192.168.1.70:44727 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:53:20 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:53:21 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:53:21 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:53:21 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:53:24 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:54752 />" data_endpoint="<HPAI 192.168.1.70:54752 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:53:24 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:53:25 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:53:25 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:53:25 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:53:28 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:46458 />" data_endpoint="<HPAI 192.168.1.70:46458 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:53:28 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:53:29 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:53:29 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:53:29 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:53:32 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:33280 />" data_endpoint="<HPAI 192.168.1.70:33280 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:53:32 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:53:33 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:53:33 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:53:33 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:53:36 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:59385 />" data_endpoint="<HPAI 192.168.1.70:59385 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:53:36 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:53:37 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:53:37 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:53:37 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:53:40 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:47031 />" data_endpoint="<HPAI 192.168.1.70:47031 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:53:40 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:53:41 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:53:41 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:53:41 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:53:44 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:44164 />" data_endpoint="<HPAI 192.168.1.70:44164 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:53:44 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:53:45 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:53:45 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:53:45 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:53:48 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:35761 />" data_endpoint="<HPAI 192.168.1.70:35761 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:53:48 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:53:49 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:53:49 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:53:49 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:53:52 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:36992 />" data_endpoint="<HPAI 192.168.1.70:36992 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:53:52 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:53:53 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:53:53 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:53:53 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:53:56 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:35543 />" data_endpoint="<HPAI 192.168.1.70:35543 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:53:56 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:53:57 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:53:57 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:53:57 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:54:00 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:52133 />" data_endpoint="<HPAI 192.168.1.70:52133 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:54:00 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:54:01 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:54:01 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:54:01 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:54:04 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:48296 />" data_endpoint="<HPAI 192.168.1.70:48296 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:54:04 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:54:05 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:54:05 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:54:05 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:54:08 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:40689 />" data_endpoint="<HPAI 192.168.1.70:40689 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:54:08 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:54:09 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:54:09 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:54:09 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:54:12 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:41722 />" data_endpoint="<HPAI 192.168.1.70:41722 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:54:12 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:54:13 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:54:13 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:54:13 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:54:16 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:51478 />" data_endpoint="<HPAI 192.168.1.70:51478 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:54:16 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:54:17 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:54:17 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:54:17 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:54:20 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:39452 />" data_endpoint="<HPAI 192.168.1.70:39452 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:54:20 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:54:21 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:54:21 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:54:21 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:54:24 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:51233 />" data_endpoint="<HPAI 192.168.1.70:51233 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:54:24 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:54:25 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:54:25 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:54:25 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:54:28 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:41195 />" data_endpoint="<HPAI 192.168.1.70:41195 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:54:28 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:54:29 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:54:29 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:54:29 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:54:32 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:39482 />" data_endpoint="<HPAI 192.168.1.70:39482 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:54:32 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:54:33 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:54:33 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:54:33 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:54:36 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:60164 />" data_endpoint="<HPAI 192.168.1.70:60164 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:54:36 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:54:37 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:54:37 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:54:37 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:54:40 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:36745 />" data_endpoint="<HPAI 192.168.1.70:36745 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:54:40 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:54:41 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:54:41 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:54:41 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:54:44 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:52619 />" data_endpoint="<HPAI 192.168.1.70:52619 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:54:44 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:54:45 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:54:45 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:54:45 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:54:48 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:35072 />" data_endpoint="<HPAI 192.168.1.70:35072 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:54:48 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:54:49 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:54:49 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:54:49 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:54:52 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:34932 />" data_endpoint="<HPAI 192.168.1.70:34932 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:54:52 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:54:53 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:54:53 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:54:53 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:54:56 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:45173 />" data_endpoint="<HPAI 192.168.1.70:45173 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:54:56 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:54:57 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:54:57 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:54:57 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:55:00 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:34903 />" data_endpoint="<HPAI 192.168.1.70:34903 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:55:00 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:55:01 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:55:01 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:55:01 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:55:04 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:40706 />" data_endpoint="<HPAI 192.168.1.70:40706 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:55:04 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:55:05 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:55:05 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:55:05 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:55:08 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:47832 />" data_endpoint="<HPAI 192.168.1.70:47832 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:55:08 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:55:09 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:55:09 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:55:09 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:55:12 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:52228 />" data_endpoint="<HPAI 192.168.1.70:52228 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:55:13 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:55:13 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:55:13 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:55:13 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:55:16 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:55750 />" data_endpoint="<HPAI 192.168.1.70:55750 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:55:16 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:55:17 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:55:17 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:55:17 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:55:20 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:60272 />" data_endpoint="<HPAI 192.168.1.70:60272 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:55:20 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:55:21 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:55:21 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:55:21 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:55:24 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:46689 />" data_endpoint="<HPAI 192.168.1.70:46689 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:55:24 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:55:25 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:55:25 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:55:25 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:55:28 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:54394 />" data_endpoint="<HPAI 192.168.1.70:54394 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:55:28 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:55:29 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:55:29 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:55:29 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:55:32 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:47012 />" data_endpoint="<HPAI 192.168.1.70:47012 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:55:32 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:55:33 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:55:33 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:55:33 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:55:36 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:56484 />" data_endpoint="<HPAI 192.168.1.70:56484 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:55:36 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:55:37 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:55:37 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:55:37 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:55:40 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:58309 />" data_endpoint="<HPAI 192.168.1.70:58309 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:55:40 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:55:41 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:55:41 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:55:41 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:55:44 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:47998 />" data_endpoint="<HPAI 192.168.1.70:47998 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:55:44 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:55:45 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:55:45 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:55:45 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:55:48 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:47084 />" data_endpoint="<HPAI 192.168.1.70:47084 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:55:48 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:55:49 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:55:49 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:55:49 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:55:52 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:59838 />" data_endpoint="<HPAI 192.168.1.70:59838 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:55:52 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:55:53 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:55:53 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:55:53 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:55:56 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:58569 />" data_endpoint="<HPAI 192.168.1.70:58569 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:55:56 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:55:57 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:55:57 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:55:57 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:56:00 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:46078 />" data_endpoint="<HPAI 192.168.1.70:46078 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:56:00 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:56:01 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:56:01 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:56:01 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:56:04 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:50207 />" data_endpoint="<HPAI 192.168.1.70:50207 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:56:04 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:56:05 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:56:05 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:56:05 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:56:08 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:41997 />" data_endpoint="<HPAI 192.168.1.70:41997 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:56:08 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:56:09 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:56:09 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:56:09 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:56:12 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:59125 />" data_endpoint="<HPAI 192.168.1.70:59125 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:56:12 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:56:13 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:56:13 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:56:13 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:56:16 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:48564 />" data_endpoint="<HPAI 192.168.1.70:48564 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:56:16 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:56:17 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:56:17 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:56:17 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:56:20 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:46714 />" data_endpoint="<HPAI 192.168.1.70:46714 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:56:20 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:56:21 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:56:21 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:56:21 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:56:24 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:55022 />" data_endpoint="<HPAI 192.168.1.70:55022 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:56:24 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:56:25 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:56:25 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:56:25 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:56:28 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:41220 />" data_endpoint="<HPAI 192.168.1.70:41220 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:56:28 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:56:29 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:56:29 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:56:29 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:56:32 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:40876 />" data_endpoint="<HPAI 192.168.1.70:40876 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:56:32 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:56:33 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:56:33 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:56:33 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:56:36 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:53800 />" data_endpoint="<HPAI 192.168.1.70:53800 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:56:36 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:56:37 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:56:37 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:56:37 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:56:40 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:48347 />" data_endpoint="<HPAI 192.168.1.70:48347 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:56:40 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:56:41 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:56:41 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:56:41 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:56:44 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:39899 />" data_endpoint="<HPAI 192.168.1.70:39899 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:56:44 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:56:45 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:56:45 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:56:45 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:56:48 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:41698 />" data_endpoint="<HPAI 192.168.1.70:41698 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:56:48 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:56:49 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:56:49 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:56:49 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:56:52 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:38044 />" data_endpoint="<HPAI 192.168.1.70:38044 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:56:52 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:56:53 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:56:53 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:56:53 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:56:56 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:36401 />" data_endpoint="<HPAI 192.168.1.70:36401 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:56:56 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:56:57 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:56:57 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:56:57 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 20:57:00 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="CONNECT_REQUEST" Reserve="0" TotalLength="26" />
+ body="<ConnectRequest control_endpoint="<HPAI 192.168.1.70:33539 />" data_endpoint="<HPAI 192.168.1.70:33539 />" request_type="ConnectRequestType.TUNNEL_CONNECTION" />" />
+2021-02-18 20:57:00 WARNING (MainThread) [xknx.log] Error received: [Errno 111] Connection refused
+2021-02-18 20:57:01 DEBUG (MainThread) [xknx.log] Error: KNX bus did not respond in time (1.0 secs) to request of type 'Connect'
+2021-02-18 20:57:01 DEBUG (MainThread) [xknx.log] Could not establish connection to KNX/IP interface. CommunicationError: ConnectRequest failed. Status code: None
+2021-02-18 20:57:01 DEBUG (MainThread) [xknx.log] Closing transport.
