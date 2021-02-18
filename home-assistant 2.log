@@ -1,0 +1,320 @@
+2021-02-18 21:26:28 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2021-02-18 21:26:28 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for sonoff which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2021-02-18 21:26:28 INFO (MainThread) [homeassistant.setup] Setup of domain logger took 0.0 seconds
+2021-02-18 21:26:28 INFO (MainThread) [homeassistant.setup] Setting up http
+2021-02-18 21:26:28 INFO (MainThread) [homeassistant.setup] Setup of domain http took 0.0 seconds
+2021-02-18 21:26:28 INFO (MainThread) [homeassistant.setup] Setting up system_log
+2021-02-18 21:26:28 INFO (MainThread) [homeassistant.setup] Setup of domain system_log took 0.0 seconds
+2021-02-18 21:26:28 INFO (MainThread) [homeassistant.setup] Setup of domain recorder took 0.1 seconds
+2021-02-18 21:26:28 INFO (MainThread) [homeassistant.bootstrap] Setting up stage 1: {'system_log', 'websocket_api', 'alexa', 'search', 'webhook', 'config', 'api', 'image', 'person', 'http', 'hassio', 'device_automation', 'lovelace', 'auth', 'cloud', 'frontend', 'onboarding'}
+2021-02-18 21:26:28 INFO (MainThread) [homeassistant.setup] Setting up websocket_api
+2021-02-18 21:26:28 INFO (MainThread) [homeassistant.setup] Setup of domain websocket_api took 0.0 seconds
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setting up alexa
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setup of domain alexa took 0.0 seconds
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setting up webhook
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setup of domain webhook took 0.0 seconds
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setting up config
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setting up api
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setup of domain api took 0.0 seconds
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setting up hassio
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setting up device_automation
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setup of domain device_automation took 0.0 seconds
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setting up lovelace
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setting up auth
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setup of domain auth took 0.0 seconds
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setting up search
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setup of domain search took 0.0 seconds
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setup of domain config took 0.2 seconds
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setting up image
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setup of domain lovelace took 0.1 seconds
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setup of domain image took 0.0 seconds
+2021-02-18 21:26:29 INFO (SyncWorker_1) [homeassistant.loader] Loaded google_assistant from homeassistant.components.google_assistant
+2021-02-18 21:26:29 INFO (SyncWorker_2) [homeassistant.loader] Loaded camera from homeassistant.components.camera
+2021-02-18 21:26:29 INFO (MainThread) [homeassistant.setup] Setting up person
+2021-02-18 21:26:29 INFO (SyncWorker_1) [homeassistant.loader] Loaded media_player from homeassistant.components.media_player
+2021-02-18 21:26:30 INFO (MainThread) [homeassistant.setup] Setting up cloud
+2021-02-18 21:26:30 INFO (MainThread) [homeassistant.setup] Setup of domain cloud took 0.1 seconds
+2021-02-18 21:26:30 INFO (MainThread) [homeassistant.setup] Setup of domain person took 0.8 seconds
+2021-02-18 21:26:30 INFO (MainThread) [homeassistant.setup] Setting up onboarding
+2021-02-18 21:26:30 INFO (MainThread) [homeassistant.setup] Setup of domain onboarding took 0.0 seconds
+2021-02-18 21:26:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded device_tracker from homeassistant.components.device_tracker
+2021-02-18 21:26:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded panel_custom from homeassistant.components.panel_custom
+2021-02-18 21:26:30 INFO (MainThread) [homeassistant.setup] Setting up frontend
+2021-02-18 21:26:30 INFO (MainThread) [homeassistant.setup] Setup of domain frontend took 0.0 seconds
+2021-02-18 21:26:30 INFO (MainThread) [homeassistant.components.http] Now listening on port 8123
+2021-02-18 21:26:30 INFO (MainThread) [homeassistant.setup] Setup of domain hassio took 1.1 seconds
+2021-02-18 21:26:30 INFO (MainThread) [homeassistant.bootstrap] Setting up stage 2: {'input_datetime', 'webostv', 'persistent_notification', 'dhcp', 'default_config', 'updater', 'hacs', 'sun', 'map', 'automation', 'input_select', 'script', 'wake_on_lan', 'zone', 'logbook', 'ssdp', 'tag', 'history', 'mobile_app', 'counter', 'timer', 'tts', 'cast', 'configurator', 'zeroconf', 'system_health', 'scene', 'input_text', 'switch', 'met', 'sonoff', 'knx', 'input_number', 'media_source', 'blueprint', 'rpi_power', 'kodi', 'tuya', 'input_boolean', 'group'}
+2021-02-18 21:26:30 INFO (MainThread) [homeassistant.setup] Setting up input_datetime
+2021-02-18 21:26:31 INFO (MainThread) [homeassistant.setup] Setting up dhcp
+2021-02-18 21:26:31 INFO (MainThread) [homeassistant.setup] Setup of domain dhcp took 0.0 seconds
+2021-02-18 21:26:31 INFO (MainThread) [homeassistant.setup] Setting up updater
+2021-02-18 21:26:31 INFO (MainThread) [homeassistant.setup] Setup of domain updater took 0.0 seconds
+2021-02-18 21:26:31 INFO (MainThread) [homeassistant.setup] Setting up sun
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setup of domain sun took 0.0 seconds
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setting up map
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setup of domain map took 0.0 seconds
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setting up input_select
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setting up script
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setup of domain script took 0.0 seconds
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setting up wake_on_lan
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setup of domain wake_on_lan took 0.0 seconds
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setting up zone
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setting up logbook
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setting up tag
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setting up history
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setup of domain history took 0.0 seconds
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setting up counter
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setting up timer
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setting up configurator
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setup of domain configurator took 0.0 seconds
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setting up system_health
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setting up scene
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.components.scene] Setting up scene.homeassistant
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setting up input_text
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setting up switch
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setup of domain switch took 0.0 seconds
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setting up met
+2021-02-18 21:26:32 INFO (MainThread) [homeassistant.setup] Setup of domain met took 0.0 seconds
+2021-02-18 21:26:33 INFO (MainThread) [homeassistant.setup] Setting up knx
+2021-02-18 21:26:33 INFO (MainThread) [xknx.log] XKNX v0.16.2 starting automatic connection to KNX bus.
+2021-02-18 21:26:33 DEBUG (MainThread) [xknx.log] Searching on lo / 127.0.0.1
+2021-02-18 21:26:33 INFO (MainThread) [homeassistant.setup] Setting up input_number
+2021-02-18 21:26:33 INFO (MainThread) [homeassistant.setup] Setting up media_source
+2021-02-18 21:26:33 INFO (MainThread) [homeassistant.setup] Setting up blueprint
+2021-02-18 21:26:33 INFO (MainThread) [homeassistant.setup] Setup of domain blueprint took 0.0 seconds
+2021-02-18 21:26:33 INFO (MainThread) [homeassistant.setup] Setting up rpi_power
+2021-02-18 21:26:33 INFO (MainThread) [homeassistant.setup] Setup of domain rpi_power took 0.0 seconds
+2021-02-18 21:26:33 INFO (MainThread) [homeassistant.setup] Setting up tuya
+2021-02-18 21:26:33 INFO (MainThread) [homeassistant.setup] Setup of domain tuya took 0.0 seconds
+2021-02-18 21:26:33 INFO (MainThread) [homeassistant.setup] Setting up input_boolean
+2021-02-18 21:26:33 INFO (MainThread) [homeassistant.setup] Setting up group
+2021-02-18 21:26:33 INFO (MainThread) [homeassistant.components.scene] Setting up scene.homeassistant
+2021-02-18 21:26:33 INFO (MainThread) [homeassistant.components.switch] Setting up switch.wake_on_lan
+2021-02-18 21:26:33 INFO (MainThread) [homeassistant.components.switch] Setting up switch.wake_on_lan
+2021-02-18 21:26:33 INFO (SyncWorker_3) [homeassistant.loader] Loaded binary_sensor from homeassistant.components.binary_sensor
+2021-02-18 21:26:33 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="SEARCH_REQUEST" Reserve="0" TotalLength="14" />
+ body="<SearchRequest discovery_endpoint="<HPAI 224.0.23.12:3671 />" />" />
+2021-02-18 21:26:33 INFO (MainThread) [xknx.log] Could not connect to an KNX/IP device on dummy0
+2021-02-18 21:26:33 DEBUG (MainThread) [xknx.log] Searching on eth0 / 192.168.1.70
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setting up hacs
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain hacs took 0.0 seconds
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain logbook took 2.0 seconds
+2021-02-18 21:26:34 INFO (SyncWorker_0) [homeassistant.loader] Loaded google_translate from homeassistant.components.google_translate
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setting up zeroconf
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain system_health took 2.0 seconds
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain media_source took 0.5 seconds
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain group took 0.3 seconds
+2021-02-18 21:26:34 DEBUG (MainThread) [xknx.raw_socket] Received from ('127.0.0.1', 3671): 06100201000e0801e000170c0e57
+2021-02-18 21:26:34 DEBUG (MainThread) [xknx.knx] Received: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="SEARCH_REQUEST" Reserve="0" TotalLength="14" />
+ body="<SearchRequest discovery_endpoint="<HPAI 224.0.23.12:3671 />" />" />
+2021-02-18 21:26:34 DEBUG (MainThread) [xknx.knx] Unhandled KNXIPServiceType.SEARCH_REQUEST: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="SEARCH_REQUEST" Reserve="0" TotalLength="14" />
+ body="<SearchRequest discovery_endpoint="<HPAI 224.0.23.12:3671 />" />" />
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setting up binary_sensor
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain binary_sensor took 0.0 seconds
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain input_datetime took 3.5 seconds
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain input_select took 2.1 seconds
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain counter took 2.1 seconds
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain timer took 2.1 seconds
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain tag took 2.1 seconds
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain input_text took 2.0 seconds
+2021-02-18 21:26:34 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="SEARCH_REQUEST" Reserve="0" TotalLength="14" />
+ body="<SearchRequest discovery_endpoint="<HPAI 224.0.23.12:3671 />" />" />
+2021-02-18 21:26:34 INFO (MainThread) [xknx.log] Could not connect to an KNX/IP device on wlan0
+2021-02-18 21:26:34 DEBUG (MainThread) [xknx.log] Searching on docker0 / 172.17.0.1
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain input_number took 0.6 seconds
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain input_boolean took 0.4 seconds
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setting up tts
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain zeroconf took 0.2 seconds
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.rpi_power
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setting up kodi
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain kodi took 0.0 seconds
+2021-02-18 21:26:34 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="SEARCH_REQUEST" Reserve="0" TotalLength="14" />
+ body="<SearchRequest discovery_endpoint="<HPAI 224.0.23.12:3671 />" />" />
+2021-02-18 21:26:34 DEBUG (MainThread) [xknx.log] Searching on hassio / 172.30.32.1
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain zone took 2.3 seconds
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setting up webostv
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.updater
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain scene took 2.3 seconds
+2021-02-18 21:26:34 DEBUG (MainThread) [xknx.knx] Sending: <KNXIPFrame <KNXIPHeader HeaderLength="6" ProtocolVersion="16" KNXIPServiceType="SEARCH_REQUEST" Reserve="0" TotalLength="14" />
+ body="<SearchRequest discovery_endpoint="<HPAI 224.0.23.12:3671 />" />" />
+2021-02-18 21:26:34 INFO (MainThread) [xknx.log] Could not connect to an KNX/IP device on vethfa92353
+2021-02-18 21:26:34 INFO (MainThread) [xknx.log] Could not connect to an KNX/IP device on veth350a9e8
+2021-02-18 21:26:34 INFO (MainThread) [xknx.log] Could not connect to an KNX/IP device on veth2584985
+2021-02-18 21:26:34 INFO (MainThread) [xknx.log] Could not connect to an KNX/IP device on veth284b76a
+2021-02-18 21:26:34 INFO (MainThread) [xknx.log] Could not connect to an KNX/IP device on veth8fb06c7
+2021-02-18 21:26:34 INFO (MainThread) [xknx.log] Could not connect to an KNX/IP device on vethd095b1a
+2021-02-18 21:26:34 INFO (MainThread) [xknx.log] Could not connect to an KNX/IP device on veth34141ec
+2021-02-18 21:26:34 INFO (MainThread) [xknx.log] Could not connect to an KNX/IP device on vethe19b585
+2021-02-18 21:26:34 INFO (MainThread) [xknx.log] Could not connect to an KNX/IP device on veth4ba7285
+2021-02-18 21:26:34 INFO (MainThread) [xknx.log] Could not connect to an KNX/IP device on vethc1eb246
+2021-02-18 21:26:34 INFO (SyncWorker_1) [homeassistant.loader] Loaded notify from homeassistant.components.notify
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain tts took 0.3 seconds
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setting up sonoff
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setting up automation
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setting up ssdp
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain ssdp took 0.0 seconds
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setting up mobile_app
+2021-02-18 21:26:34 INFO (MainThread) [custom_components.hacs] 
+-------------------------------------------------------------------
+HACS (Home Assistant Community Store)
+
+Version: 1.11.3
+This is a custom integration
+If you have any issues with this you need to open an issue here:
+https://github.com/hacs/integration/issues
+-------------------------------------------------------------------
+
+2021-02-18 21:26:34 INFO (MainThread) [custom_components.hacs] Setup task HacsSetupTask.WEBSOCKET
+2021-02-18 21:26:34 INFO (MainThread) [custom_components.hacs] Setup task HacsSetupTask.FRONTEND
+2021-02-18 21:26:34 INFO (SyncWorker_4) [homeassistant.loader] Loaded plex from homeassistant.components.plex
+2021-02-18 21:26:34 INFO (MainThread) [homeassistant.setup] Setup of domain mobile_app took 0.1 seconds
+2021-02-18 21:26:34 INFO (MainThread) [custom_components.hacs] Setup task HacsSetupTask.CATEGORIES
+2021-02-18 21:26:35 INFO (MainThread) [homeassistant.setup] Setting up notify
+2021-02-18 21:26:35 INFO (MainThread) [homeassistant.setup] Setup of domain notify took 0.0 seconds
+2021-02-18 21:26:35 INFO (MainThread) [custom_components.hacs] HACS is enabled
+2021-02-18 21:26:35 INFO (MainThread) [homeassistant.setup] Setup of domain automation took 0.6 seconds
+2021-02-18 21:26:35 INFO (MainThread) [homeassistant.setup] Setting up cast
+2021-02-18 21:26:35 INFO (MainThread) [homeassistant.setup] Setup of domain cast took 0.0 seconds
+2021-02-18 21:26:35 INFO (MainThread) [homeassistant.setup] Setting up device_tracker
+2021-02-18 21:26:35 INFO (SyncWorker_1) [homeassistant.loader] Loaded sensor from homeassistant.components.sensor
+2021-02-18 21:26:35 INFO (MainThread) [homeassistant.components.updater] Submitted analytics to Home Assistant servers. Information submitted includes {}
+2021-02-18 21:26:35 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mobile_app
+2021-02-18 21:26:35 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mobile_app
+2021-02-18 21:26:35 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mobile_app
+2021-02-18 21:26:35 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mobile_app
+2021-02-18 21:26:35 INFO (MainThread) [homeassistant.components.notify] Setting up notify.mobile_app
+2021-02-18 21:26:35 INFO (MainThread) [homeassistant.setup] Setup of domain device_tracker took 0.3 seconds
+2021-02-18 21:26:35 INFO (MainThread) [homeassistant.setup] Setting up sensor
+2021-02-18 21:26:35 INFO (MainThread) [homeassistant.setup] Setup of domain sensor took 0.0 seconds
+2021-02-18 21:26:35 INFO (MainThread) [homeassistant.setup] Setting up default_config
+2021-02-18 21:26:35 INFO (MainThread) [homeassistant.setup] Setting up media_player
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.setup] Setup of domain media_player took 0.0 seconds
+2021-02-18 21:26:36 INFO (SyncWorker_0) [homeassistant.loader] Loaded stream from homeassistant.components.stream
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.components.device_tracker] Setting up device_tracker.mobile_app
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.components.device_tracker] Setting up device_tracker.mobile_app
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.components.device_tracker] Setting up device_tracker.mobile_app
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.components.device_tracker] Setting up device_tracker.mobile_app
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mobile_app
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mobile_app
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mobile_app
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mobile_app
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.components.tuya] Tuya discovery device poll interval set to 605 seconds
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.components.tuya] Tuya query device poll interval set to 120 seconds
+2021-02-18 21:26:36 INFO (SyncWorker_3) [homeassistant.loader] Loaded weather from homeassistant.components.weather
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.cast
+2021-02-18 21:26:36 INFO (SyncWorker_6) [homeassistant.loader] Loaded light from homeassistant.components.light
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.setup] Setting up weather
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.setup] Setup of domain weather took 0.0 seconds
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.components.switch] Setting up switch.tuya
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.setup] Setting up light
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.components.weather] Setting up weather.met
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.setup] Setting up stream
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.setup] Setup of domain stream took 0.0 seconds
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.setup] Setup of domain light took 0.1 seconds
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.setup] Setup of domain default_config took 0.3 seconds
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.components.weather] Not adding entity HomeAssistantAB Hourly because it's disabled
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.components.light] Setting up light.tuya
+2021-02-18 21:26:36 INFO (SyncWorker_1) [pychromecast] Querying device status
+2021-02-18 21:26:36 INFO (MainThread) [custom_components.hacs] Setup task HacsSetupTask.HACS_REPO
+2021-02-18 21:26:36 INFO (SyncWorker_0) [pychromecast] Querying device status
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.setup] Setup of domain webostv took 2.1 seconds
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.webostv
+2021-02-18 21:26:36 INFO (MainThread) [homeassistant.components.notify] Setting up notify.webostv
+2021-02-18 21:26:36 INFO (SyncWorker_2) [pychromecast] Querying device status
+2021-02-18 21:26:37 INFO (MainThread) [custom_components.hacs] <Integration hacs/integration> Registration completed
+2021-02-18 21:26:37 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.kodi
+2021-02-18 21:26:37 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.kodi
+2021-02-18 21:26:37 INFO (MainThread) [custom_components.hacs] Restore started
+2021-02-18 21:26:38 WARNING (MainThread) [homeassistant.components.knx] Could not connect to KNX interface: No Gateways found
+2021-02-18 21:26:38 DEBUG (MainThread) [xknx.state_updater] StateUpdater registered StateTrackerType.EXPIRE 60 for <RemoteValueScaling device_name="PersianaDespacho" feature_name="Position" None/GroupAddress("3/3/4")/None/None/>
+2021-02-18 21:26:38 INFO (MainThread) [homeassistant.setup] Setup of domain knx took 5.2 seconds
+2021-02-18 21:26:38 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 21:26:38 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 21:26:38 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 21:26:38 DEBUG (MainThread) [xknx.log] Closing transport.
+2021-02-18 21:26:38 INFO (SyncWorker_3) [homeassistant.loader] Loaded cover from homeassistant.components.cover
+2021-02-18 21:26:38 INFO (SyncWorker_7) [homeassistant.loader] Loaded climate from homeassistant.components.climate
+2021-02-18 21:26:38 INFO (MainThread) [homeassistant.components.light] Setting up light.knx
+2021-02-18 21:26:38 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.knx
+2021-02-18 21:26:38 INFO (MainThread) [homeassistant.components.switch] Setting up switch.knx
+2021-02-18 21:26:38 INFO (MainThread) [homeassistant.components.notify] Setting up notify.knx
+2021-02-18 21:26:38 INFO (MainThread) [homeassistant.components.scene] Setting up scene.knx
+2021-02-18 21:26:38 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.knx
+2021-02-18 21:26:38 INFO (MainThread) [homeassistant.components.weather] Setting up weather.knx
+2021-02-18 21:26:38 INFO (MainThread) [homeassistant.setup] Setting up cover
+2021-02-18 21:26:38 INFO (MainThread) [homeassistant.setup] Setup of domain cover took 0.0 seconds
+2021-02-18 21:26:38 INFO (MainThread) [homeassistant.setup] Setting up climate
+2021-02-18 21:26:38 INFO (MainThread) [homeassistant.setup] Setup of domain climate took 0.0 seconds
+2021-02-18 21:26:38 INFO (MainThread) [custom_components.hacs] Restore done
+2021-02-18 21:26:38 INFO (MainThread) [custom_components.hacs] Setup task HacsSetupTask.SENSOR
+2021-02-18 21:26:38 INFO (MainThread) [custom_components.hacs] Stage changed: HacsStage.WAITING
+2021-02-18 21:26:38 INFO (MainThread) [custom_components.hacs] Setup complete, waiting for Home Assistant before startup tasks starts
+2021-02-18 21:26:38 INFO (MainThread) [custom_components.hacs] HACS is enabled
+2021-02-18 21:26:38 INFO (MainThread) [homeassistant.components.cover] Setting up cover.knx
+2021-02-18 21:26:38 INFO (MainThread) [homeassistant.components.climate] Setting up climate.knx
+2021-02-18 21:26:38 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.hacs
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.setup] Setup of domain sonoff took 4.7 seconds
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.light] Setting up light.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.switch] Setting up switch.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.sonoff
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.bootstrap] Home Assistant initialized in 11.73s
+2021-02-18 21:26:39 INFO (MainThread) [homeassistant.core] Starting Home Assistant
+2021-02-18 21:26:40 INFO (SyncWorker_4) [homeassistant.components.zeroconf] Starting Zeroconf broadcast
+2021-02-18 21:26:40 INFO (MainThread) [homeassistant.core] Timer:starting
+2021-02-18 21:26:40 INFO (MainThread) [homeassistant.components.automation.jardin_encendido_diario] Initialized trigger Jardin. Encendido diario
+2021-02-18 21:26:40 INFO (MainThread) [homeassistant.components.automation.plantabaja_encendido_con_sensor] Initialized trigger PlantaBaja. Encendido con sensor
+2021-02-18 21:26:40 INFO (MainThread) [homeassistant.components.automation.entrada_encendido_luzporche_con_sensor] Initialized trigger Entrada. Encendido LuzPorche con Sensor
+2021-02-18 21:26:40 INFO (MainThread) [homeassistant.components.automation.garaje_encendido_luzgaraje_con_puertagarajepersonas] Initialized trigger Garaje. Encendido LuzGaraje con PuertaGarajePersonas
+2021-02-18 21:26:40 INFO (MainThread) [homeassistant.components.automation.garaje_encendido_luzgaraje_con_puertagaraje] Initialized trigger Garaje. Encendido LuzGaraje con PuertaGaraje
+2021-02-18 21:26:40 INFO (MainThread) [homeassistant.components.automation.se_escanea_la_etiqueta_apagar_casa_3] Initialized trigger Se escanea la etiqueta Apagar Casa
+2021-02-18 21:26:43 INFO (MainThread) [custom_components.hacs] Stage changed: HacsStage.STARTUP
+2021-02-18 21:26:43 INFO (MainThread) [custom_components.hacs] setup task HacsSetupTask.CATEGORIES
+2021-02-18 21:26:44 INFO (MainThread) [custom_components.hacs] Loading known repositories
+2021-02-18 21:26:46 INFO (MainThread) [custom_components.hacs] <Integration custom-components/remote_homeassistant> Registration completed
+2021-02-18 21:26:52 INFO (MainThread) [custom_components.hacs] Stage changed: HacsStage.RUNNING

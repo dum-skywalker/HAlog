@@ -1,0 +1,28 @@
+
+
+logger:
+  default: info
+  logs:
+    xknx: debug
+
+# Configuración KNX
+knx:
+#  tunneling:
+#    host: '192.168.1.30'
+#    port: 3671
+#    local_ip: '192.168.1.70'
+# Despacho
+# Persiana Despacho
+  cover:
+    - name: "PersianaDespacho"
+      move_short_address: "3/0/4"
+      stop_address: "3/1/4"
+      position_address: "3/2/4"
+      position_state_address: "3/3/4"
+      travelling_time_down: 18
+      travelling_time_up: 21
+# Temperatura Despacho
+#  climate:
+#    - name: "TemperaturaDespacho"
+#      temperature_address: "6/0/2"
+#      target_temperature_state_address: "6/2/20"
